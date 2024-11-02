@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Contact() {
     return (
         <>
-            <div className="bg-[url('/contact/contact.svg')] w-full bg-cover h-[60vh] bg-no-repeat flex justify-start items-end">
+            <div className="bg-[url('/contact/Contact.svg')] w-full bg-cover h-[60vh] bg-no-repeat flex justify-start items-end">
                 <div className="flex flex-col justify-start items-start">
                     <div className="px-[20px] text-start">
                         <p className="text-[#fff] text-[50px] text-start py-[80px] font-[400]"></p>
