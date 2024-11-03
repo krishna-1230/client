@@ -1,7 +1,7 @@
-import AdminLogin from "@/component/Landing_Page/AdminLogin/Admin";
+import LoginPage from "@/component/Landing_Page/SignupLogin/Login";
 
 export default function Login () {
     return(
-        <AdminLogin />
+        <LoginPage />
     )
 }

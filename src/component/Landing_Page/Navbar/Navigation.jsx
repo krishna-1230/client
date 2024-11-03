@@ -51,7 +51,7 @@ export default function Navigation (){
                 </div>
             </div>
             <UserDetail
-          user={user} 
+          user={user}                                                                                                                                                                                                                                       
           setUser={setUser} />
          
         </div>

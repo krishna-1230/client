@@ -15,13 +15,18 @@ export function AppWrapper({ children }) {
   return (
     // <Provider store={store}>
       <section>
-        {pathname === "/" || pathname === "/about" || pathname === "/" || pathname === "/contact" || pathname === "/join" || pathname === "/homeimage" ? ( <Navigation />) : ("")}
+        {pathname === "/" || pathname === "/about" || pathname === "/" 
+        || pathname === "/contact" || pathname === "/join" || pathname === "/homeimage" 
+        || pathname === "/Shoppingbag" || pathname === "/checkout" 
+        || pathname === "/payment" || pathname === "/account" || pathname === "/wishlist" || pathname === "/yourorder" || pathname === "/login"
+        || pathname === "/signup" || pathname === "/shipadd" || pathname === "/paysuccess" ? ( <Navigation />) : ("")}
 
         <main>
           <div className="">{children}</div>
         </main>
         
-        {pathname === "/" || pathname === "/about" || pathname === "/" || pathname === "/contact" || pathname === "/join" || pathname === "/homeimage" ? ( <> <Footer /> </> ) : ("")}
+        {pathname === "/" || pathname === "/about" || pathname === "/" || pathname === "/contact" || pathname === "/join" || pathname === "/homeimage" 
+        || pathname === "/Shoppingbag" || pathname === "/wishlist"  || pathname === "/yourorder" ? ( <> <Footer /> </> ) : ("")}
       </section>
     // </Provider>
   );

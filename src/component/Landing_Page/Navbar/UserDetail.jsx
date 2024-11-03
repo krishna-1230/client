@@ -20,11 +20,11 @@ const UserDetail = ({ user, setUser }) => {
        
         {/* <div className="border-b border-[var(--border-color)]"></div> */}
        <div className="bg-[#ffff] flex flex-col absolute right-[3%] text-center rounded-[10px] w-[20%] top-[60px]">
-        <Link className="p-[20px] text-[14px] font-[600] " href={"/"}>Account</Link>
+        <Link className="p-[20px] text-[14px] font-[600] " href={"/account"}>Account</Link>
         <div className="border-b border-[black]"></div>
-        <Link className="p-[20px]  text-[14px] font-[600] " href={"/"}>Wish List</Link>
+        <Link className="p-[20px]  text-[14px] font-[600] " href={"/wishlist"}>Wish List</Link>
         <div className="border-b border-[black]"></div>
-        <Link className="p-[20px]  text-[14px] font-[600]" href={"/"}>Your Orders</Link>
+        <Link className="p-[20px]  text-[14px] font-[600]" href={"/yourorder"}>Your Orders</Link>
         
        </div>
   
