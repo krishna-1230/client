@@ -19,7 +19,7 @@ export function AppWrapper({ children }) {
         || pathname === "/contact" || pathname === "/join" || pathname === "/homeimage" 
         || pathname === "/Shoppingbag" || pathname === "/checkout" 
         || pathname === "/payment" || pathname === "/account" || pathname === "/wishlist" || pathname === "/yourorder" || pathname === "/login"
-        || pathname === "/signup" || pathname === "/shipadd" || pathname === "/paysuccess" ? ( <Navigation />) : ("")}
+        || pathname === "/signup" || pathname === "/shipping" || pathname === "/paysuccess" ? ( <Navigation />) : ("")}
 
         <main>
           <div className="">{children}</div>
