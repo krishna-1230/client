@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 
-export default function CheckoutPage() {
+export default function CheckoutPagee() {
   const [cartTotal, setCartTotal] = useState(459.00);
   const itemSubtotal = 327.18;
   const taxes = 71.82;
